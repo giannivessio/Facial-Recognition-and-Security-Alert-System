@@ -11,7 +11,7 @@ Security Alert: If a dangerous face is recognized, an alert is sent via email, a
 Geolocation: The device's geographic location is retrieved via IP and sent via email with a Google Maps link.
 Multi-Screen Support: The screen resolution is automatically adjusted based on the monitor in use.
 Easy Setup: Uses a .env file to securely store email credentials.
-
+![Testo Alternativo](924b7cfdb40c1cbb1f26629034ce5c2f0fdaacac)
 
 
 
