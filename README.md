@@ -1,7 +1,9 @@
 Facial Recognition and Security Alert System
+
 This project implements a facial recognition system using the face_recognition library in Python. The system is capable of detecting faces from images, comparing them with a database of known faces, and sending alerts via email if a "dangerous" subject is detected. When a dangerous subject is recognized, the system triggers an alarm, displays an alert message on the screen, and sends an email with the Google Maps link to the device's geographic location.
 
 Features
+
 Facial Recognition: The system can recognize faces in real-time through the webcam.
 Security Alert: If a dangerous face is recognized, an alert is sent via email, an alarm is triggered, and a warning message is displayed on the screen.
 Geolocation: The device's geographic location is retrieved via IP and sent via email with a Google Maps link.
@@ -19,6 +21,7 @@ Face Comparison: The system compares the extracted face encoding with known face
 Threshold for Recognition: The system uses a precision threshold to decide when a match is valid. If the distance between the current face encoding and the known encoding is smaller than the threshold, the match is considered accurate.
 
 Prerequisites
+
 To run this project, you need Python 3.6+ and the following libraries:
 
 opencv-python – For video processing and face detection.
@@ -29,6 +32,7 @@ smtplib – To send emails via SMTP.
 python-dotenv – To load environment variables from the .env file.
 
 Usage
+
 The system will automatically start detecting faces via the webcam.
 When a face is recognized, it will be compared to the known faces stored in the database.
 If the face is "dangerous" (marked in the text file as such), an alarm will sound, a warning message will be displayed on the screen, and an email will be sent with the recognized face's information.
